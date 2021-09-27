@@ -29,6 +29,10 @@ p{
   margin: 0 10px 0 10px
 }
 
+img{
+  margin: 5px 40px 5px 40px;
+}
+
 footer{
   text-align: center;
   margin-top: 5%;

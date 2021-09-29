@@ -9,3 +9,13 @@ randomNumber2 = Math.floor(randomNumber2) + 1;
 
 document.getElementsByClassName("img1")[0].setAttribute("src", "images/dice"+randomNumber1+".png");
 document.getElementsByClassName("img2")[0].setAttribute("src", "images/dice"+randomNumber2+".png");
+
+if(randomNumber1 == randomNumber2){
+  document.getElementsByClassName("winner")[0].innerHTML = "Draw!";
+}
+else if (randomNumber1 > randomNumber2) {
+  document.getElementsByClassName("winner")[0].innerHTML = "Player 1 wins!";
+}
+else {
+  document.getElementsByClassName("winner")[0].innerHTML = "Player 2 wins!";
+}
